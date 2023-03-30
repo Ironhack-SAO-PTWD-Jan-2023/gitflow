@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav>Navbar</nav>
+    <nav>Projeto Super Duper Legal</nav>
   )
 }
 
