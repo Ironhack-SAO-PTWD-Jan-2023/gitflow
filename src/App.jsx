@@ -8,7 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Projeto Super Legal</h1>
+      <h1>Projeto Super Legal!</h1>
+
+      <p>Texto explicando para que serve o projeto super legal!</p>
     </div>
   )
 }
