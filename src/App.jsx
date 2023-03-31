@@ -19,11 +19,12 @@ function App() {
       <p>Texto explicando para que serve o projeto super legal!</p>
 
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="" element={<AboutPage />}></Route>
+      <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </div>
   );
 }
+
 
 export default App;
