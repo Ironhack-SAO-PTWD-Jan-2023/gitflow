@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <h1>Projeto Super Duper Legal</h1>
       <Routes>
-        <Route path="*" element={} />
+        <Route path="*" element={<p>Erro 404</p>} />
       </Routes>
 
       <p>Texto explicando para que serve o projeto super legal!</p>
