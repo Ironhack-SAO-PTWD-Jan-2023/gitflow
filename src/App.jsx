@@ -1,12 +1,13 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { HomePage } from "../src/HomePage";
-import { AboutPage } from "../src/AboutPage";
+import HomePage from "../src/HomePage";
+import AboutPage from "../src/AboutPage";
 import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
+import Navbar from "./components/Navbar";
 
 function App() {
- 
+
 
   return (
     <div className="App">
@@ -21,9 +22,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
-     <Footer/>
+      <Footer />
 
-    
+
     </div>
   );
 }
