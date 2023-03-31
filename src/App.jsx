@@ -6,11 +6,13 @@ import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar";
 
+
 function App() {
 
 
   return (
     <div className="App">
+    
       <h1>Projeto Super Duper Legal</h1>
       <Routes>
         <Route path="*" element={<p>Erro 404</p>} />
